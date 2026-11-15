@@ -1,0 +1,8 @@
+# 不追踪系统与编辑器文件
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# 不追踪安装产物
+.agents/
