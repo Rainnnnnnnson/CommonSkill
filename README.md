@@ -9,6 +9,13 @@
 | `skill-installer` | 按当前操作系统与 Agent 客户端，把技能装到真正被扫描的根目录 |
 | `workspace-architect` | 规划目录结构与命名规范并写入 `AGENTS.md`；或按规范归档文件 |
 | `git-versioning` | 用自然语言保存、查看、比较、撤销、恢复项目文档版本（本地 Git） |
+| `clarify-decisions` | 按依赖顺序多轮澄清计划/想法/需求背后的决策，最后输出修订版方案；不进入执行 |
+| `facts-searching` | 派并行子代理做网络调研，只返回与决策相关的结论 |
+| `semantic-clarification` | 澄清任务描述中的术语误用、概念混淆与歧义，输出归一化后的任务描述 |
+
+### 技能间依赖
+
+`semantic-clarification` 在需要外部证据核对术语时，会委派 `facts-searching` 执行调研。两者建议一起安装。
 
 ## 安装
 
